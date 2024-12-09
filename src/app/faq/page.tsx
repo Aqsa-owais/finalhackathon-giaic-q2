@@ -43,7 +43,7 @@ const Faq: React.FC = () => {
       <main className="max-w-5xl mx-auto py-16 px-4">
         <h2 className="text-4xl font-bold text-center mb-8">Questions Looks Here</h2>
         <p className="text-center text-gray-600 mb-12">
-          Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+         {` Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the`}
         </p>
 
         <div className="grid gap-6 md:grid-cols-2">

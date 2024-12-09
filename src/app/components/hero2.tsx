@@ -18,7 +18,7 @@ export default function LandingPage() {
               foody product
             </h1>
             <p className="text-gray-400 max-w-xl ml-[120px]">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit, aliquam vitae vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae non risus. Lacus nec ac accumsan, et ac euismod in consequat.
+             {` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit, aliquam vitae vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae non risus. Lacus nec ac accumsan, et ac euismod in consequat.`}
             </p>
             <ul className="space-y-3 ml-[120px]">
               <li className="flex items-center space-x-2">
@@ -31,13 +31,13 @@ export default function LandingPage() {
                 <svg className="w-5 h-5 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span className="text-gray-300">Quisque diam pellentesque bibendum non dui volutpat fringilla</span>
+                <span className="text-gray-300">{`Quisque diam pellentesque bibendum non dui volutpat fringilla`}</span>
               </li>
               <li className="flex items-center space-x-2">
                 <svg className="w-5 h-5 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span className="text-gray-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
+                <span className="text-gray-300">{`Lorem ipsum dolor sit amet, consectetur adipisicing elit`}</span>
               </li>
             </ul>
             <button className="ml-[120px] bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-full font-medium transition-colors">

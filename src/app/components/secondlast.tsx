@@ -24,8 +24,8 @@ export default function Secondlast() {
           Bean Process Until It Is Saved
         </h1>
         <p className="text-gray-300 max-w-lg">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisque diam
-          pellentesque bibendum non dui volutpat fringilla bibendum.
+          {`Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisque diam
+          pellentesque bibendum non dui volutpat fringilla bibendum.`}
         </p>
         <div className="flex flex-wrap gap-4 items-center justify-end">
           <button className="px-8 py-3 bg-transparent border-2 border-white rounded-full hover:bg-white hover:text-black transition-colors duration-300">

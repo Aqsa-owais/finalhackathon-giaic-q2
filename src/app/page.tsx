@@ -7,7 +7,6 @@ import BlogSection from "./components/blogcompo";
 import Secondlast from "./components/secondlast";
 import TestimonialsSection from "./components/reviews";
 import Stats from "./components/states";
-import ErrorPage from "@/../../src/app/error"
 export default function Home() {
   return (
    <>
@@ -19,7 +18,6 @@ export default function Home() {
    <RestaurantPage/>
    <TestimonialsSection/>
    <Secondlast/>
-   <ErrorPage/>
    <BlogSection/>
    </>
   )

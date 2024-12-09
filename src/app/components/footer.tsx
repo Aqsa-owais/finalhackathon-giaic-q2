@@ -44,8 +44,8 @@ const Footer = () => {
             </div>
             <div className="ml-4">
               <h4 className="font-bold">Opening Hours</h4>
-              <p>Mon - Sat (8.00 - 6.00)</p>
-              <p>Sunday - Closed</p>
+              <p>Mon  Sat (8.00  6.00)</p>
+              <p>Sunday  Closed</p>
             </div>
           </div>
         </div>
@@ -66,7 +66,7 @@ const Footer = () => {
 
         {/* Help */}
         <div>
-          <h3 className="text-lg font-bold mb-4">Help?</h3>
+          <h3 className="text-lg font-bold mb-4">{`Help?`}</h3>
           <ul>
             {[
               "FAQ",

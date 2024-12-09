@@ -59,11 +59,11 @@ export default function ExperienceSection() {
                 And Experienced
               </h2>
               <p className="text-gray-400 max-w-xl">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisque diam
+                {`Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisque diam
                 pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit
                 alique urna, vitae feugiat pretium donec id elementum. Ultrices mattis
                 sed vitae non risus. Lacus nec, et ac dapibus sit eu velit in
-                consequat.
+                consequat.`}
               </p>
             </div>
 

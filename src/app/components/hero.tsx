@@ -17,8 +17,8 @@ export default function Hero() {
           {/* timer */}
           <div className="flex sm:flex-wrap sm:justify-start md:justify-start pt-5 pb-4 gap-4">
             <p className="text-white">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-              facere voluptatum tempore massa conque
+              {`Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+              facere voluptatum tempore massa conque`}
             </p>
           </div>
           <button className="bg-yellow-500 sm:hidden w-190 md:block sm:px-3 md:px-7 sm:text-sm py-0 text-gray-400 rounded-full h-10 ">

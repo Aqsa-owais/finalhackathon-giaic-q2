@@ -67,7 +67,7 @@ export default function SignUpPage() {
             </div>
             <div className="flex items-center mb-4">
               <input type="checkbox" className="mr-2" />
-              <span>Remember me?</span>
+              <span>{`Remember me?`}</span>
             </div>
             <button
               type="submit"
@@ -77,7 +77,7 @@ export default function SignUpPage() {
             </button>
             <p className="text-center mt-4">
               <Link href="/forgot-password" className="text-yellow-500">
-                Forgot password?
+               {` Forgot password?`}
               </Link>
             </p>
           </form>

@@ -4,8 +4,6 @@ import { Star } from 'lucide-react'
 import friedchiken from "@/../../public/friedchicken.png"
 import smoothy from "@/../../public/smoothy.png"
 import tomato from "@/../../public/tomatoburger.png"
-import suchi from "@/../../public/suchi.png"
-import greenpasta from "@/../../public/greenpasta.png"
 import img from "@/../../public/img.png"
 
 export default function BlogPost() {
@@ -52,14 +50,14 @@ export default function BlogPost() {
             <div className="p-6">
               <div className="flex items-center gap-4 text-sm text-gray-600 mb-4">
                 <time>{`Feb 14, 2023`}</time>
-                <span>•</span>
+                <span>{`•`}</span>
                 <span>3</span>
-                <span>•</span>
+                <span>{`•`}</span>
                 <span>Admin</span>
               </div>
               
               <h1 className="text-2xl font-bold mb-4">
-                10 Reasons To Do A Digital Detox Challenge
+                {`10 Reasons To Do A Digital Detox Challenge`}
               </h1>
 
               <p className="text-gray-600 mb-6">
@@ -68,7 +66,7 @@ export default function BlogPost() {
 
               <div className="bg-orange-500 text-white p-6 rounded-lg mb-6">
                 <blockquote className="flex gap-4">
-                  <span className="text-4xl">"</span>
+                  <span className="text-4xl">{`"`}</span>
                   <p>
                     {`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -100,7 +98,7 @@ export default function BlogPost() {
               />
             </div>
             <h2 className="text-xl font-semibold mb-1">Prince Miyako</h2>
-            <p className="text-gray-600 text-sm mb-3">Blogger/Photographer</p>
+            <p className="text-gray-600 text-sm mb-3">{`Blogger/Photographer`}</p>
             
             {/* Rating */}
             <div className="flex justify-center gap-1 mb-4">
@@ -153,7 +151,7 @@ export default function BlogPost() {
                     />
                   </div>
                   <div>
-                    <time className="text-sm text-gray-600">June {20 + i}, 2020</time>
+                    <time className="text-sm text-gray-600">June {20 + i} 2020</time>
                     <h4 className="font-medium hover:text-orange-500 transition-colors">
                       <Link href="#">
                         {`Lorem ipsum dolor sit cing elit, sed do.`}
