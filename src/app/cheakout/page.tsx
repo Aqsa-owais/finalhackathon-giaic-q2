@@ -8,7 +8,7 @@ import google from "@/../../public/Google.png"
 
 export default function CheckoutPage() {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container-fluid ">
 
 <div
         className="w-full  bg-no-repeat bg-center flex justify-center"
@@ -23,14 +23,14 @@ export default function CheckoutPage() {
         {/* Header Section */}
         <div className="w-full max-w-5xl flex flex-col justify-center items-center text-white mb-10">
           <p className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 text-center">
-            404 Error
+          Cheekout Page
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4 mb-4">
             <p className="text-xl sm:text-2xl md:text-3xl text-[20px]">Home</p>
             <div className="flex items-center">
               <Image src={signin} width={10} height={10} alt="Vector Icon" />
               <p className="ml-2 text-xl sm:text-2xl md:text-3xl text-[#FF9F0D]   text-[20px]">
-                404
+              Cheekout
               </p>
             </div>
           </div>
@@ -38,7 +38,7 @@ export default function CheckoutPage() {
       </div>
 
       {/* cheatout code */}
-      <div className="grid gap-8 lg:grid-cols-2">
+      <div className="grid gap-8 lg:grid-cols-2 mr-[120px] ml-[120px] mt-[150px] mb-[100px]">
         {/* Left Column - Forms */}
         <div className="space-y-6">
           <div>

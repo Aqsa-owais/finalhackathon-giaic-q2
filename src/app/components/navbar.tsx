@@ -31,22 +31,22 @@ const Navbar: React.FC = () => {
           <Link href="/" className="hover:text-yellow-500 text-white">
             Home
           </Link>
-          <Link href="/menu" className="hover:text-yellow-500 text-white">
+          <Link href="../signin" className="hover:text-yellow-500 text-white">
             Menu
           </Link>
-          <Link href="/blog" className="hover:text-yellow-500 text-white">
+          <Link href="../signup" className="hover:text-yellow-500 text-white">
             Blog
           </Link>
-          <Link href="/pages" className="hover:text-yellow-500 text-white">
+          <Link href="../aboutus" className="hover:text-yellow-500 text-white">
             Pages
           </Link>
-          <Link href="/about" className="hover:text-yellow-500 text-white">
+          <Link href="../blogdetails" className="hover:text-yellow-500 text-white">
             About
           </Link>
-          <Link href="/shop" className="hover:text-yellow-500 text-white">
+          <Link href="../faq" className="hover:text-yellow-500 text-white">
             Shop
           </Link>
-          <Link href="/contact" className="hover:text-yellow-500 text-white">
+          <Link href="../cheakout" className="hover:text-yellow-500 text-white">
             Contact
           </Link>
         </div>

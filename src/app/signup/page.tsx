@@ -22,7 +22,7 @@ export default function SignUpPage() {
         {/* Header Section */}
         <div className="w-full max-w-5xl flex flex-col justify-center items-center text-white mb-10">
           <p className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 text-center">
-            404 Error
+          Sign Up Page
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4 mb-4">
             <p className="text-xl sm:text-2xl md:text-3xl text-[20px]">Home</p>

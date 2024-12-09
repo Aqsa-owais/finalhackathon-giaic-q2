@@ -1,6 +1,3 @@
-import Image from "next/image";
-import Navbar from "./components/navbar";
-import Footer from "./components/footer";
 import Hero from "./components/hero";
 import FoodItems from "./components/fooditems";
 import LandingPage from "./components/hero2";
@@ -10,11 +7,10 @@ import BlogSection from "./components/blogcompo";
 import Secondlast from "./components/secondlast";
 import TestimonialsSection from "./components/reviews";
 import Stats from "./components/states";
-
+import ErrorPage from "@/../../src/app/error"
 export default function Home() {
   return (
    <>
-   <Navbar/>
    <Hero/>
    <LandingPage/>
    <FoodItems/>
@@ -23,8 +19,8 @@ export default function Home() {
    <RestaurantPage/>
    <TestimonialsSection/>
    <Secondlast/>
+   <ErrorPage/>
    <BlogSection/>
-   <Footer/>
    </>
   )
 }
