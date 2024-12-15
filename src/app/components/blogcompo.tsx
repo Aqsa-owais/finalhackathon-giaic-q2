@@ -1,5 +1,5 @@
 import Image from "next/image"
-import burger2 from "@/../../public/burger2.png"
+import burger2 from "@/../../public/burger5.png"
 import lemon from "@/../../public/lemon.png"
 import pizza from "@/../../public/pizza.png"
 const blogPosts = [

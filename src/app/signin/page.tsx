@@ -5,6 +5,7 @@ import email from "@/../../public/EnvelopeSimple.png"
 import lock from "@/../../public/Lock.png"
 import apple from "@/../../public/Apple.png"
 import google from "@/../../public/Google.png"
+import { IoIosArrowForward } from "react-icons/io";
 
 export default function SigninPage() {
   return (
@@ -27,12 +28,8 @@ export default function SigninPage() {
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4 mb-4">
             <p className="text-xl sm:text-2xl md:text-3xl text-[20px]">Home</p>
             <div className="flex items-center">
-              <Image
-                src={signin}
-                width={10}
-                height={10}
-                alt="Vector Icon"
-              />
+            <IoIosArrowForward />
+
               <p className="ml-2 text-xl sm:text-2xl md:text-3xl text-[#FF9F0D]   text-[20px]">
                 404
               </p>

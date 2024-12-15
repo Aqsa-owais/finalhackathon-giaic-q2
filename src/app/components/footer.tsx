@@ -113,7 +113,7 @@ const Footer = () => {
             {[FaFacebookF, FaTwitter, FaInstagram, FaPinterest, FaYoutube].map((Icon, idx) => (
               <Icon
                 key={idx}
-                className="bg-white text-gray-900 p-2 text-xl rounded-full"
+                className="bg-white text-gray-900 p-1 text-xl "
               />
             ))}
           </div>
