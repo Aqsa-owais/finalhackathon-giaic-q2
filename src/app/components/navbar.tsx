@@ -37,13 +37,13 @@ const Navbar: React.FC = () => {
           <Link href="../blogdetails" className="hover:text-yellow-500 text-white">
             Blog
           </Link>
-          <Link href="../faq" className="hover:text-yellow-500 text-white">
+          <Link href="../blogpage" className="hover:text-yellow-500 text-white">
             Pages
           </Link>
           <Link href="../aboutus" className="hover:text-yellow-500 text-white">
             About
           </Link>
-          <Link href="../shoplist" className="hover:text-yellow-500 text-white">
+          <Link href="../shoppingcart" className="hover:text-yellow-500 text-white">
             Shop
           </Link>
           <Link href="../chef" className="hover:text-yellow-500 text-white">
